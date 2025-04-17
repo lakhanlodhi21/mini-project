@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="10px" cellspacing="10px" align="center">
+
+        <tr>
+            <th colspan="4" id="display"></th>
+        </tr>
+        <tr>
+            <td onclick="tap('1')">1</td>
+            <td onclick="tap('2')">2</td>
+            <td onclick="tap('3')">3</td>
+            <td onclick="tap('4')">4</td>
+        </tr>
+        <tr>
+            <td onclick="tap('5')">5</td>
+            <td onclick="tap('6')">6</td>
+            <td onclick="tap('7')">7</td>
+            <td onclick="tap('8')">8</td>
+        </tr>
+        <tr>
+            <td onclick="tap('9')">9</td>
+            <td onclick="tap('0')">0</td>
+            <td onclick="tap('00')">00</td>
+            <td onclick="tap('.')">.</td>
+        </tr>
+        <tr>
+            <td onclick="tap('*')">*</td>
+            <td onclick="tap('-')">-</td>
+            <td onclick="tap('/')">/</td>
+            <td onclick="tap('%')">%</td>
+        </tr>
+        <tr>
+            <td onclick="result()">=</td>
+            <td onclick="del()">DEL</td>
+            <td onclick="empty()">AC</td>
+            <td onclick="tap('+')">+</td>
+        </tr>
+
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
