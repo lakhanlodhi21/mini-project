@@ -13,8 +13,8 @@ let result = () => {
     
 let empty = () => {
     let cal = document.querySelector("#display")
-    store = eval()
-    cal.innerHTML= ""
+    store = ""
+    cal.innerHTML= store
 }
 
 let del = () => {
